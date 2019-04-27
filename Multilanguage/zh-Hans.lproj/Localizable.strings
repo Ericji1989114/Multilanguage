@@ -1,0 +1,11 @@
+/* 
+  Localizeable.strings
+  Multilanguage
+
+  Created by Eric JI on 2019/04/26.
+  Copyright © 2019 Eric JI. All rights reserved.
+*/
+"hello" = "你好";
+"chinese" = "中文";
+"english" = "英文";
+"japanese" = "日文";

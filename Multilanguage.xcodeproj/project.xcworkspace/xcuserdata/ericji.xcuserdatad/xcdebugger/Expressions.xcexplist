@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NSBundle.currentBundle.getter:Extension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Bundle(path: path)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "setCurrent(index:):Extension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "[languageCodes[index]]">
+            </PersistentString>
+            <PersistentString
+               value = "Bundle.accessibilityLanguage()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
