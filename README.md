@@ -1,8 +1,9 @@
 # Multilanguage
 
-Objective-c category can override system funnction. 
+Objective-C category can override system funnction. 
 
-⚠️Unfortunately⚠️
+⚠️**Unfortunately**⚠️
+
 Extension in swift language can't override system function.
 
 ## Which problem shoud be resolved
@@ -10,18 +11,18 @@ Extension in swift language can't override system function.
 But how to let storyboard reload its label's text according to **.strings** file?
 
 Set **AppleLanguages** in user default and then **restart** app. 
-But sometimes we don't want to user restart app. it will affect user experience.
+But sometimes we don't want user to restart app. it will affect user experience.
 
 ## How to reset in app? (So Storyboard must reload label's text also)
 
-Actually this function will be called everytime. no matter whether you use storyboard or you choose   codes to do all implementations
+Actually the following function will be called everytime. no matter whether you use storyboard or you choose codes to do all implementations
 
 ```
 - (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value table:(NSString *)tableName
 
 ```
 
-Use objc-runningtime function, we can change the bundle according to current language.
+Use Objc-runningtime function, we can change the bundle instance according to current language.
 
 ```
 @implementation BundleEx
@@ -55,9 +56,9 @@ Use objc-runningtime function, we can change the bundle according to current lan
 
 ```
 
-Because NSBundle can't be used in swift. even if you have imported it in your **xxxx-Bridging-Header** file.
+Because NSBundle can't be directly used in swift. even if you have imported it in your **xxxx-Bridging-Header** file.
 
-Finally wrap a class which only provides interface to swift. And then it can be done.
+Finally wrap a class which only provides interface to swift. 
 
 
 Resource:
